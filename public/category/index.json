@@ -1,0 +1,1507 @@
+{
+    "Data": [
+      {
+        "text": "首页",
+        "url": "#/"
+      },
+      {
+        "text": "订单",
+        "name": "order",
+        "url": "#/order/pendingw",
+        "dropMenu": [
+          {
+            "text": "订单管理",
+            "children": [
+              {
+                "text": "处理订单",
+                "name": "Pending",
+                "url": "#/order/pendingw?tab=Pending"
+              },
+              {
+                "name": "Manual",
+                "text": "手工订单",
+                "url": "#/order/manual"
+              }
+            ]
+          },
+          {
+            "text": "其它分类",
+            "children": [
+              {
+                "text": "未付款",
+                "name": "Unpaid",
+                "url": "#/order/unpaid"
+              },
+              {
+                "text": "未上网",
+                "name": "Offonline",
+                "url": "#/order/Offonline"
+              },
+              {
+                "text": "无需处理",
+                "name": "Bypassed",
+                "url": "#/order/bypassed"
+              },
+              {
+                "text": "已搁置",
+                "name": "Shelved",
+                "url": "#/order/shelved"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "children": [
+              {
+                "text": "物流预报",
+                "name": "Forecast",
+                "url": "#/order/forecast"
+              },
+              {
+                "text": "退款订单",
+                "name": "RefundInfo",
+                "url": "#/order/refundInfo"
+              }
+            ]
+          },
+          {
+            "text": "订单设置",
+            "children": [
+              {
+                "text": "高级设置",
+                "name": "setting",
+                "url": "#/system/setting"
+              },
+              {
+                "text": "审单规则",
+                "url": "#/rule/app"
+              },
+              {
+                "text": "赠品规则",
+                "url": "#/rule/gift"
+              },
+              {
+                "text": "物流规则",
+                "url": "#/rule/logistics"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "children": [
+              {
+                "text": "标记规则",
+                "url": "#/rule/tag"
+              },
+              {
+                "text": "快捷筛选",
+                "url": "#/rule/filter"
+              }
+            ]
+          },
+          {
+            "text": "交接单",
+            "children": [
+              {
+                "text": "速卖通",
+                "url": "#/order/aliReceipt"
+              },
+              {
+                "text": "Shopee",
+                "url": "#/order/ShopeeForecast"
+              }
+            ]
+          }
+        ],
+        "sideMenu": [
+          {
+            "name": "order1",
+            "icon": "icon-dingdanchuli",
+            "text": "订单搜索",
+            "children": [
+              {
+                "name": "Manual",
+                "visable": false,
+                "icon": "icon-chuangjiandingdan",
+                "text": "手工订单",
+                "url": "#/order/manual"
+              },
+              {
+                "name": "All",
+                "icon": "icon-dingdan",
+                "text": "全部订单",
+                "url": "#/order/all"
+              },
+              {
+                "text": "未付款",
+                "name": "WaitingForPay",
+                "url": "#/order/unpaid"
+              }
+            ]
+          },
+          {
+            "name": "order1",
+            "icon": "icon-dingdanchuli",
+            "text": "订单处理",
+            "children": [
+              {
+                "text": "同步订单",
+                "name": "Sync",
+                "url": "#/order/sync"
+              },
+              {
+                "text": "待审核",
+                "name": "Auditing",
+                "url": "#/order/audit"
+              },
+              {
+                "text": "待处理",
+                "name": "Pending",
+                "url": "#/order/pendingw?tab=Pending"
+              },
+              {
+                "text": "申请运单号",
+                "name": "Logistics",
+                "url": "#/order/pending",
+                "children": [
+                  {
+                    "text": "自营仓库",
+                    "name": "LogisticsStatus",
+                    "url": "#/order/pending"
+                  },
+                  {
+                    "text": "第三方仓库",
+                    "name": "OverseasLogistics",
+                    "url": "#/order/otth/pending"
+                  }
+                ]
+              },
+              {
+                "text": "待打单",
+                "name": "Pack",
+                "url": "#/order/pack",
+                "children": [
+                  {
+                    "text": "有货",
+                    "name": "Pack_Adequate",
+                    "url": "#/order/pack?tab=Pack&listTab=InStore"
+                  },
+                  {
+                    "text": "缺货",
+                    "name": "Pack_NotAdequate",
+                    "url": "#/order/pack?tab=Pack&listTab=OutOfStock"
+                  }
+                ]
+              },
+              {
+                "text": "虚假发货",
+                "name": "DeliveryType_FakeDelivery",
+                "url": "#/order/pack?tab=ShamShip"
+              },
+              {
+                "text": "已交运",
+                "name": "Shipping",
+                "children": [
+                  {
+                    "text": "发货成功",
+                    "name": "Shipping_Success",
+                    "url": "#/order/shipping?tab=Success"
+                  },
+                  {
+                    "text": "发货失败",
+                    "name": "DeliveryType_DeliveryFailed",
+                    "url": "#/order/pack?tab=ShippingFail"
+                  },
+                  {
+                    "text": "发货中",
+                    "name": "DeliveryType_Declaring",
+                    "url": "#/order/pack?tab=ShippingPending"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "order4",
+            "icon": "icon-qita",
+            "text": "其它订单",
+            "children": [
+              {
+                "text": "未上网",
+                "name": "Offonline",
+                "url": "#/order/Offonline"
+              },
+              {
+                "text": "无需处理",
+                "name": "Bypassed",
+                "url": "#/order/bypassed"
+              },
+              {
+                "text": "已搁置",
+                "name": "Shelved",
+                "url": "#/order/shelved"
+              },
+              {
+                "text": "物流预报",
+                "name": "Forecast",
+                "url": "#/order/forecast"
+              },
+              {
+                "text": "退款订单",
+                "name": "RefundInfo",
+                "url": "#/order/refundInfo"
+              },
+              {
+                "text": "扫描发货",
+                "name": "ScanDelivery",
+                "visable": false,
+                "url": "#/order/scan"
+              },
+              {
+                "text": "单品打单",
+                "name": "SingleMultiPrint",
+                "visable": false,
+                "url": "#/order/singleMultiPrint"
+              },
+              {
+                "text": "多品打单",
+                "name": "Multiprint",
+                "visable": false,
+                "url": "#/order/multiprint"
+              }
+            ]
+          },
+          {
+            "name": "Order5",
+            "icon": "icon-settings",
+            "text": "订单设置",
+            "unique": true,
+            "children": [
+              {
+                "text": "审单规则",
+                "url": "#/rule/app",
+                "extraUrl": "/rule/app/config"
+              },
+              {
+                "text": "赠品规则",
+                "url": "#/rule/gift",
+                "extraUrl": "/rule/gift/config"
+              },
+              {
+                "text": "快捷筛选",
+                "url": "#/rule/filter",
+                "extraUrl": "/rule/filter/config"
+              },
+              {
+                "text": "物流规则",
+                "url": "#/rule/logistics",
+                "extraUrl": "/rule/logistics/config"
+              },
+              {
+                "text": "标记规则",
+                "url": "#/rule/tag",
+                "extraUrl": "/rule/tag/config"
+              }
+            ]
+          },
+          {
+            "name": "Order6",
+            "icon": "icon-list01",
+            "text": "交接单",
+            "unique": true,
+            "children": [
+              {
+                "text": "速卖通",
+                "url": "#/order/aliReceipt",
+                "extraUrl": [
+                  "/order/aliReceipt/create",
+                  "/order/aliReceipt/scanCreate"
+                ]
+              },
+              {
+                "text": "Shopee",
+                "url": "#/order/ShopeeForecast",
+                "extraUrl": [
+                  "/order/ShopeeForecast/create",
+                  "/order/ShopeeForecast/scanCreate"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "物流",
+        "name": "logistics",
+        "url": "#/logistics/configlist",
+        "dropMenu": [
+          {
+            "text": "物流设置",
+            "children": [
+              {
+                "text": "物流渠道列表",
+                "url": "#/logistics/configlist"
+              },
+              {
+                "text": "新增物流渠道",
+                "url": "#/logistics/channel"
+              },
+              {
+                "text": "自定义物流",
+                "url": "#/logistics/custom/list"
+              },
+              {
+                "text": "物流号码池",
+                "url": "#/logistics/custom/nopool"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "children": [
+              {
+                "text": "设置揽件人",
+                "url": "#/logistics/packager"
+              },
+              {
+                "text": "设置常用报关",
+                "url": "#/logistics/customs"
+              }
+            ]
+          },
+          {
+            "text": "运费设置",
+            "children": [
+              {
+                "text": "运费模板",
+                "url": "#/logistics/freight/list"
+              },
+              {
+                "text": "运费计算",
+                "url": "#/logistics/freight/calc"
+              }
+            ]
+          },
+          {
+            "text": "打单管理",
+            "children": [
+              {
+                "text": "加打信息模板",
+                "url": "#/logistics/distributionAddInfo/list"
+              },
+              {
+                "text": "配货单管理",
+                "url": "#/system/setting/distr"
+              },
+              {
+                "text": "拣货单管理",
+                "url": "#/system/setting/pick"
+              }
+            ]
+          }
+        ],
+        "sideMenu": [
+          {
+            "name": "logistics1",
+            "text": "物流设置",
+            "unique": true,
+            "children": [
+              {
+                "text": "物流渠道列表",
+                "url": "#/logistics/configlist"
+              },
+              {
+                "text": "新增物流渠道",
+                "children": [
+                  {
+                    "text": "自发货物流",
+                    "url": "#/logistics/channel",
+                    "extraUrl": "/logistics/configlist/edit"
+                  },
+                  {
+                    "text": "第三方仓库物流",
+                    "url": "#/logistics/otth/channel",
+                    "extraUrl": "/logistics/configlist/otth/edit"
+                  }
+                ]
+              },
+              {
+                "text": "自定义物流",
+                "url": "#/logistics/custom/list",
+                "extraUrl": "/logistics/custom/list/edit"
+              },
+              {
+                "text": "物流号码池",
+                "url": "#/logistics/custom/nopool"
+              },
+              {
+                "text": "设置揽件人",
+                "url": "#/logistics/packager",
+                "extraUrl": "/logistics/packager/edit"
+              },
+              {
+                "text": "设置常用报关",
+                "url": "#/logistics/customs"
+              }
+            ]
+          },
+          {
+            "name": "logistics2",
+            "text": "运费设置",
+            "unique": true,
+            "children": [
+              {
+                "text": "运费模板",
+                "url": "#/logistics/freight/list",
+                "extraUrl": "/logistics/freight/list/edit"
+              },
+              {
+                "text": "运费计算",
+                "url": "#/logistics/freight/calc"
+              }
+            ]
+          },
+          {
+            "text": "打单管理",
+            "unique": true,
+            "children": [
+              {
+                "text": "加打信息模板",
+                "url": "#/logistics/distributionAddInfo/list",
+                "extraUrl": "/logistics/distributionAddInfo/list/modify"
+              },
+              {
+                "text": "配货单管理",
+                "url": "#/system/setting/distr"
+              },
+              {
+                "text": "拣货单管理",
+                "url": "#/system/setting/pick"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "warehouse2",
+        "text": "仓库",
+        "url": "#/warehouse/selfEmployed/inventorylist?status=local",
+        "sideMenu": [
+          {
+            "name": "WareProductGroup",
+            "text": "商品分组",
+            "unique": true,
+            "dynamic": true,
+            "children": [
+              {
+                "text": "所有分组",
+                "name": "allGroup",
+                "url": "#/warehouse/product"
+              },
+              {
+                "text": "未分组",
+                "name": "noGroup",
+                "url": "#/warehouse/product/0"
+              },
+              {
+                "text": "已分组",
+                "url": "#/warehouse/product"
+              }
+            ]
+          },
+          {
+            "name": "productPairing",
+            "text": "商品配对",
+            "unique": true,
+            "children": [
+              {
+                "text": "订单配对",
+                "url": "#/warehouse/ordergoods"
+              },
+              {
+                "text": "产品配对",
+                "url": "#/warehouse/aligoods"
+              },
+              {
+                "text": "SKU配对",
+                "url": "#/warehouse/skuPairing"
+              },
+              {
+                "text": "1688采购配对",
+                "url": "#/warehouse/1688Pairing"
+              },
+              {
+                "text": "海外仓商品配对",
+                "url": "#/warehouse/overseaSkuPairing"
+              }
+            ]
+          },
+          {
+            "name": "otherManage",
+            "text": "其他管理",
+            "unique": true,
+            "children": [
+              {
+                "text": "分类报关",
+                "url": "#/warehouse/classifycustoms"
+              },
+              {
+                "text": "商品分组",
+                "url": "#/warehouse/productgroup"
+              },
+              {
+                "text": "商品属性",
+                "url": "#/warehouse/shopprop"
+              },
+              {
+                "name": "barcode",
+                "text": "条码模板",
+                "url": "#/warehouse/barcode"
+              }
+            ]
+          },
+          {
+            "text": "仓库盘点",
+            "unique": true,
+            "url": "#/warehouse/takeStock",
+            "children": [
+              {
+                "text": "待盘点",
+                "name": "None",
+                "url": "#/warehouse/takeStock/1"
+              },
+              {
+                "text": "盘点中",
+                "name": "Checking",
+                "url": "#/warehouse/takeStock/2"
+              },
+              {
+                "text": "已完成",
+                "name": "Complete",
+                "url": "#/warehouse/takeStock/3"
+              }
+            ]
+          },
+          {
+            "name": "localwarehouse",
+            "text": "自营仓库",
+            "children": [
+              {
+                "text": "仓库清单",
+                "url": "#/warehouse/selfEmployed/inventorylist?status=local"
+              },
+              {
+                "text": "出入库记录",
+                "url": "#/warehouse/selfEmployed/inAndOut?status=local"
+              },
+              {
+                "text": "仓库管理",
+                "url": "#/warehouse/warehouseManage"
+              },
+              {
+                "text": "货架管理",
+                "url": "#/warehouse/storageRack"
+              }
+            ]
+          },
+          {
+            "name": "overseasWarehouse",
+            "text": "海外仓库",
+            "children": [
+              {
+                "text": "仓库清单",
+                "url": "#/warehouse/selfEmployed/inventorylist?status=overseas"
+              },
+              {
+                "text": "出入库记录",
+                "url": "#/warehouse/selfEmployed/inAndOut?status=overseas"
+              },
+              {
+                "text": "海外仓库管理",
+                "url": "#/warehouse/overseaLocation"
+              },
+              {
+                "text": "海外仓库配对",
+                "url": "#/warehouse/overseaLocationStock"
+              }
+            ]
+          },
+          {
+            "unique": true,
+            "name": "WarehouseAllocation",
+            "text": "仓库调拨",
+            "children": [
+              {
+                "text": "待出库",
+                "name": "PendingQuantity",
+                "url": "#/warehouse/allocation/waitout"
+              },
+              {
+                "text": "在途中",
+                "name": "WayQuantity",
+                "url": "#/warehouse/allocation/onway"
+              },
+              {
+                "text": "部分入库",
+                "name": "SubInStockQuantity",
+                "url": "#/warehouse/allocation/somein"
+              },
+              {
+                "text": "已入库",
+                "name": "FinishQuantity",
+                "url": "#/warehouse/allocation/allin"
+              },
+              {
+                "text": "已取消",
+                "name": "CancelQuantity",
+                "url": "#/warehouse/allocation/cancel"
+              }
+            ]
+          },
+          {
+            "name": "goin",
+            "text": "手动入库",
+            "unique": true,
+            "needMerges": "goinAndgoOut",
+            "children": [
+              {
+                "text": "待入库",
+                "url": "#/warehouse/goin/1",
+                "name": "WaitInStorage"
+              },
+              {
+                "text": "已入库",
+                "url": "#/warehouse/goin/2",
+                "name": "InStored"
+              }
+            ]
+          },
+          {
+            "name": "goout",
+            "text": "手动出库",
+            "unique": true,
+            "needMerges": "goinAndgoOut",
+            "children": [
+              {
+                "text": "待出库",
+                "url": "#/warehouse/goout/1",
+                "name": "WaitOutStorage"
+              },
+              {
+                "text": "已出库",
+                "url": "#/warehouse/goout/2",
+                "name": "OutStored"
+              }
+            ]
+          }
+        ],
+        "dropMenu": [
+          {
+            "text": "商品管理",
+            "children": [
+              {
+                "text": "商品列表",
+                "url": "#/warehouse/product"
+              },
+              {
+                "text": "商品配对",
+                "url": "#/warehouse/ordergoods"
+              },
+              {
+                "text": "分类报关",
+                "url": "#/warehouse/classifycustoms"
+              },
+              {
+                "text": "商品分组",
+                "url": "#/warehouse/productgroup"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "children": [
+              {
+                "text": "商品属性",
+                "url": "#/warehouse/shopprop"
+              },
+              {
+                "text": "条码模板",
+                "url": "#/warehouse/barcode"
+              }
+            ]
+          },
+          {
+            "text": "自营仓库",
+            "children": [
+              {
+                "text": "仓库清单",
+                "url": "#/warehouse/selfEmployed/inventorylist?status=local"
+              },
+              {
+                "text": "出入库记录",
+                "url": "#/warehouse/selfEmployed/inAndOut?status=local"
+              },
+              {
+                "text": "仓库盘点",
+                "url": "#/warehouse/takeStock/1"
+              },
+              {
+                "text": "仓库管理",
+                "url": "#/warehouse/warehouseManage"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "children": [
+              {
+                "text": "货架管理",
+                "url": "#/warehouse/storageRack"
+              }
+            ]
+          },
+          {
+            "text": "海外仓库",
+            "children": [
+              {
+                "text": "仓库清单",
+                "url": "#/warehouse/selfEmployed/inventorylist?status=overseas"
+              },
+              {
+                "text": "出入库记录",
+                "url": "#/warehouse/selfEmployed/inAndOut?status=overseas"
+              },
+              {
+                "text": "仓库管理",
+                "url": "#/warehouse/overseaLocation"
+              },
+              {
+                "text": "海外仓库配对",
+                "url": "#/warehouse/overseaLocationStock"
+              }
+            ]
+          },
+          {
+            "name": "WarehouseAllocation",
+            "text": "仓库调拨",
+            "children": [
+              {
+                "text": "待出库",
+                "url": "#/warehouse/allocation/waitout"
+              },
+              {
+                "text": "在途中",
+                "url": "#/warehouse/allocation/onway"
+              },
+              {
+                "text": "已入库",
+                "url": "#/warehouse/allocation/allin"
+              },
+              {
+                "text": "已取消",
+                "url": "#/warehouse/allocation/cancel"
+              }
+            ]
+          },
+          {
+            "text": "出入库管理",
+            "children": [
+              {
+                "text": "手动入库",
+                "url": "#/warehouse/goin/1"
+              },
+              {
+                "text": "手动出库",
+                "url": "#/warehouse/goout/1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "purchase",
+        "text": "采购",
+        "url": "#/purchase/local",
+        "dropMenu": [
+          {
+            "text": "采购管理",
+            "children": [
+              {
+                "text": "采购建议",
+                "url": "#/purchase/suggestion"
+              },
+              {
+                "text": "采购订单",
+                "url": "#/purchase/local"
+              }
+            ]
+          },
+          {
+            "text": "供货关系",
+            "children": [
+              {
+                "text": "供应商管理",
+                "url": "#/purchase/supplier"
+              }
+            ]
+          }
+        ],
+        "sideMenu": [
+          {
+            "name": "purchase1",
+            "text": "采购建议",
+            "children": [
+              {
+                "text": "采购建议",
+                "url": "#/purchase/suggestion",
+                "extraUrl": "/purchase/suggestion/safestock"
+              },
+              {
+                "text": "采购计划",
+                "url": "#/purchase/plan"
+              }
+            ]
+          },
+          {
+            "name": "purchase2",
+            "text": "采购订单",
+            "children": [
+              {
+                "name": "waitSubmitOrder",
+                "text": "待提交",
+                "children": [
+                  {
+                    "text": "手工采购单",
+                    "url": "#/purchase/local",
+                    "name": "PO_WaitSubmit_Local"
+                  },
+                  {
+                    "text": "1688采购单",
+                    "url": "#/purchase/1688",
+                    "name": "PO_WaitSubmit_Alibaba"
+                  }
+                ]
+              },
+              {
+                "text": "待审核",
+                "url": "#/purchase/waitAudit",
+                "name": "PO_Audit"
+              },
+              {
+                "text": "待到货",
+                "url": "#/purchase/arrival",
+                "name": "PO_Await"
+              },
+              {
+                "text": "已完成",
+                "url": "#/purchase/finished",
+                "name": "PO_Completed"
+              },
+              {
+                "text": "已取消",
+                "url": "#/purchase/canceled",
+                "name": "PO_Canceled"
+              }
+            ]
+          },
+          {
+            "name": "purchase4",
+            "text": "供货关系",
+            "unique": true,
+            "children": [
+              {
+                "text": "供应商管理",
+                "url": "#/purchase/supplier"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "reports",
+        "text": "报表",
+        "url": "#/report/overview",
+        "sideMenu": [
+          {
+            "name": "RepOverview",
+            "text": "报表概览",
+            "children": [
+              {
+                "text": "数据汇总",
+                "url": "#/report/overview"
+              }
+            ]
+          },
+          {"name":"custom","text":"自定义","url":"#/dashboard"},
+          {
+            "name": "RepProTotal",
+            "text": "产品统计",
+            "children": [
+              {
+                "text": "产品销量",
+                "url": "#/report/sales"
+              }
+            ]
+          },
+          {
+            "name": "RepOrderDetail",
+            "text": "订单表现",
+            "children": [
+              {
+                "text": "店铺业绩",
+                "url": "#/report/achieve"
+              },
+              {
+                "text": "订单统计",
+                "url": "#/report/orders"
+              },
+              {
+                "text": "客户分布",
+                "url": "#/report/customer"
+              }
+            ]
+          },
+          {
+            "name": "WarehousePerformance",
+            "text": "仓库表现",
+            "children": [
+              {
+                "text": "商品利润",
+                "url": "#/report/productprofits"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "service",
+        "text": "客服",
+        "url": "#/service/ali/dispute",
+        "dropMenu": [
+          {
+            "text": "通用服务",
+            "children": [
+              {
+                "text": "黑名单",
+                "url": "#/service/blackList"
+              },
+              {
+                "text": "客户管理",
+                "url": "#/service/clientList"
+              }
+            ]
+          },
+          {
+            "text": "速卖通",
+            "children": [
+              {
+                "text": "站内消息",
+                "url": "#/service/ali/message"
+              },
+              {
+                "text": "纠纷管理",
+                "url": "#/service/ali/dispute"
+              },
+              {
+                "text": "消息模版",
+                "url": "#/service/ali/messageTemplate"
+              },
+              {
+                "text": "取消订单",
+                "url": "#/service/ali/cancelorder"
+              }
+            ]
+          }
+        ],
+        "sideMenu": [
+          {
+            "name": "service1",
+            "unique": true,
+            "text": "通用服务",
+            "children": [
+              {
+                "text": "黑名单",
+                "url": "#/service/blackList"
+              },
+              {
+                "text": "客户管理",
+                "url": "#/service/clientList"
+              }
+            ]
+          },
+          {
+            "name": "service2",
+            "text": "速卖通",
+            "unique": true,
+            "children": [
+              {
+                "text": "站内消息",
+                "url": "#/service/ali/message",
+                "extraUrl": "/service/ali/message/chat"
+              },
+              {
+                "text": "纠纷管理",
+                "url": "#/service/ali/dispute",
+                "extraUrl": "/service/ali/dispute/detail"
+              },
+              {
+                "text": "消息模版",
+                "url": "#/service/ali/messageTemplate"
+              },
+              {
+                "text": "取消订单",
+                "url": "#/service/ali/cancelorder"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "platform",
+        "text": "平台",
+        "url": "#/platform/alishop?platform=AliExpress",
+        "sideMenu": [
+          {
+            "name": "allPlatform",
+            "listCount": "ALLPlatform",
+            "text": "平台",
+            "children": [
+              {
+                "text": "AliExpress",
+                "url": "#/platform/alishop?platform=AliExpress",
+                "name": "AliExpress"
+              },
+              {
+                "text": "Wish",
+                "url": "#/platform/alishop?platform=Wish",
+                "name": "Wish"
+              },
+              {
+                "text": "Ebay",
+                "url": "#/platform/alishop?platform=Ebay",
+                "name": "Ebay"
+              },
+              {
+                "text": "Lazada",
+                "url": "#/platform/alishop?platform=Lazada",
+                "name": "Lazada"
+              },
+              {
+                "text": "Shopee",
+                "url": "#/platform/alishop?platform=Shopee",
+                "name": "ShopeeAndShopeeGlobal"
+              },
+              {
+                "text": "Shopyy",
+                "url": "#/platform/alishop?platform=Shopyy",
+                "name": "Shopyy"
+              },
+              {
+                "text": "Shopify",
+                "url": "#/platform/alishop?platform=Shopify",
+                "name": "Shopify"
+              },
+              {
+                "text": "Vova",
+                "url": "#/platform/alishop?platform=Vova",
+                "name": "Vova"
+              },
+              {
+                "text": "Cdiscount",
+                "url": "#/platform/alishop?platform=Cdiscount",
+                "name": "Cdiscount"
+              },
+              {
+                "text": "1688授权",
+                "url": "#/purchase/supplier/1688",
+                "name": "AliBaBa"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "产品",
+        "url": "#/product/acquisition/data",
+        "sideMenu": [
+          {
+            "name": "aliExpress2",
+            "unique": true,
+            "text": "模板",
+            "children": [
+              {
+                "text": "汽配模板",
+                "url": "#/product/aliexpress/template/car/list"
+              },
+              {
+                "text": "区域调价模板",
+                "url": "#/product/aliexpress/template/prices/list"
+              },
+              {
+                "text": "产品模板",
+                "url": "#/product/aliexpress/template/productModel/list"
+              }
+            ]
+          },
+          {
+            "name": "aliExpress2",
+            "unique": true,
+            "text": "模板",
+            "children": [
+              {
+                "text": "产品模板",
+                "url": "#/product/lazada/template/productModel/list"
+              }
+            ]
+          },
+          {
+            "name": "watermark",
+            "unique": true,
+            "text": "水印管理",
+            "children": [
+              {
+                "text": "水印模板",
+                "url": "#/product/watermark/list"
+              }
+            ]
+          },
+          {
+            "unique": true,
+            "text": "违禁词设置",
+            "children": [
+              {
+                "text": "我的词库",
+                "url": "#/product/prohibitedwords/thesaurus"
+              },
+              {
+                "text": "云词库",
+                "url": "#/product/prohibitedwords/cloudthesaurus"
+              },
+              {
+                "text": "白名单设置",
+                "url": "#/product/prohibitedwords/whitelist"
+              },
+              {
+                "text": "检测任务",
+                "url": "#/product/prohibitedwords/testingtask"
+              }
+            ]
+          },
+          {
+            "text": "通用功能",
+            "children": [
+              {
+                "text": "数据采集",
+                "url": "#/product/acquisition/data"
+              }
+            ]
+          },
+          {
+            "text": "采集箱",
+            "children": [
+              {
+                "text": "AliExpress",
+                "url": "#/r/product/aliexpress/acquisition/box?Platform=AliExpress"
+              },
+              {
+                "text": "Lazada",
+                "url": "#/r/product/lazada/acquisition/box?Platform=Lazada"
+              }
+            ],
+            "waitcoding": [
+              {
+                "text": "Ebay",
+                "url": "#/r/product/aliexpress/acquisition/box?Platform=Ebay"
+              },
+              {
+                "text": "Wish",
+                "url": "#/r/product/aliexpress/acquisition/box?Platform=Wish"
+              },
+              {
+                "text": "Shopee",
+                "url": "#/r/product/aliexpress/acquisition/box?Platform=Shopee"
+              },
+              {
+                "text": "Vovo",
+                "url": "#/r/product/aliexpress/acquisition/box?Platform=Vovo"
+              },
+              {
+                "text": "Cdiscount",
+                "url": "#/r/product/aliexpress/acquisition/box?Platform=Cdiscount"
+              }
+            ]
+          },
+          {
+            "text": "产品搬家",
+            "children": [
+              {
+                "text": "AliExpress",
+                "url": "#/product/moving?Platform=AliExpress"
+              },
+              {
+                "text": "Lazada",
+                "url": "#/product/moving?Platform=Lazada"
+              }
+            ],
+            "waitcoding": [
+              {
+                "text": "Ebay",
+                "url": "#/product/moving?Platform=Ebay"
+              },
+              {
+                "text": "Wish",
+                "url": "#/product/moving?Platform=Wish"
+              },
+              {
+                "text": "Lazada",
+                "url": "#/product/moving?Platform=Lazada"
+              },
+              {
+                "text": "Shopee",
+                "url": "#/product/moving?Platform=Shopee"
+              },
+              {
+                "text": "Vovo",
+                "url": "#/product/moving?Platform=Vovo"
+              },
+              {
+                "text": "Cdiscount",
+                "url": "#/product/moving?Platform=Cdiscount"
+              }
+            ]
+          },
+          {
+            "text": "采集箱",
+            "group": "alibox",
+            "children": [
+              {
+                "text": "速卖通采集箱",
+                "name": "CollectionBoxQuantity",
+                "url": "#/product/aliexpress/acquisition/box?Platform=AliExpress"
+              }
+            ]
+          },
+          {
+            "text": "待发布产品",
+            "group": "alibox",
+            "children": [
+              {
+                "text": "待发布",
+                "id": "ReadyRelease",
+                "name": "ReadyReleaseQuantity",
+                "url": "#/product/aliexpress/local?Platform=AliExpress&Status=ReadyRelease"
+              },
+              {
+                "text": "定时发布",
+                "name": "TimedReleaseQuantity",
+                "url": "#/product/aliexpress/local?Platform=AliExpress&Status=TimedRelease"
+              },
+              {
+                "text": "发布中",
+                "name": "InReleaseQuantity",
+                "url": "#/product/aliexpress/local?Platform=AliExpress&Status=InRelease"
+              },
+              {
+                "text": "发布失败",
+                "name": "ReleaseFailedQuantity",
+                "url": "#/product/aliexpress/local?Platform=AliExpress&Status=ReleaseFailed"
+              }
+            ]
+          },
+          {
+            "text": "在线产品",
+            "group": "alibox",
+            "children": [
+              {
+                "text": "所有在线产品",
+                "id": "OnLineProduct",
+                "url": "#/product/aliexpress/online?platform=AliExpress"
+              }
+            ]
+          },
+          {
+            "text": "采集箱",
+            "group": "lazada",
+            "children": [
+              {
+                "text": "Lazada采集箱",
+                "name": "CollectionBoxQuantity",
+                "url": "#/product/lazada/acquisition/box?Platform=Lazada"
+              }
+            ]
+          },
+          {
+            "text": "待发布产品",
+            "group": "lazada",
+            "children": [
+              {
+                "text": "待发布",
+                "id": "ReadyRelease",
+                "name": "ReadyReleaseQuantity",
+                "url": "#/product/lazada/local?Platform=Lazada&Status=ReadyRelease"
+              },
+              {
+                "text": "定时发布",
+                "name": "TimedReleaseQuantity",
+                "url": "#/product/lazada/local?Platform=Lazada&Status=TimedRelease"
+              },
+              {
+                "text": "发布中",
+                "name": "InReleaseQuantity",
+                "url": "#/product/lazada/local?Platform=Lazada&Status=InRelease"
+              },
+              {
+                "text": "发布失败",
+                "name": "ReleaseFailedQuantity",
+                "url": "#/product/lazada/local?Platform=Lazada&Status=ReleaseFailed"
+              }
+            ]
+          },
+          {
+            "text": "在线产品",
+            "group": "lazada",
+            "children": [
+              {
+                "text": "所有在线产品",
+                "id": "OnLineProduct",
+                "url": "#/product/lazada/online?Platform=Lazada&Status=OnSelling"
+              }
+            ]
+          }
+        ],
+        "dropMenu": [
+          {
+            "text": "通用功能",
+            "logo":"/static/img/product/common-nav.png",
+            "children": [
+              {
+                "text": "数据采集",
+                "url": "#/product/acquisition/data" 
+              },
+              {
+                "text": "产品搬家",
+                "url": "#/product/moving?Platform=AliExpress"
+              },
+              {
+                "text": "产品检测",
+                "url": "#/product/prohibitedwords/thesaurus"
+              },
+              {
+                "text": "水印管理",
+                "url": "#/product/watermark/list"
+              }
+            ]
+          },
+          {
+            "text": "AliExpress",
+            "logo":"/static/img/product/ali.png",
+            "children": [
+              {
+                "text": "采集箱",
+                "url": "#/product/aliexpress/acquisition/box?Platform=AliExpress"
+              },
+              {
+                "text": "待发布",
+                "url": "#/product/aliexpress/local?Platform=AliExpress&Status=ReadyRelease"
+              },
+              {
+                "text": "在线产品",
+                "url": "#/product/aliexpress/online?Platform=AliExpress"
+              },
+              {
+                "text": "创建产品",
+                "url": "#/product/aliexpress/add",
+                "target": "_blank"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "children": [
+              {
+                "text": "常用模板",
+                "url": "#/product/aliexpress/template/productModel/list"
+              }
+            ]
+          },
+          {
+            "text": "Lazada",
+            "logo":"/static/img/product/lazada.png",
+            "children": [
+              {
+                "text": "采集箱",
+                "url": "#/product/lazada/acquisition/box?Platform=Lazada"
+              },
+              {
+                "text": "待发布",
+                "url": "#/product/lazada/local?Platform=Lazada&Status=ReadyRelease"
+              },
+              {
+                "text": "在线产品",
+                "url": "#/product/lazada/online?Platform=Lazada"
+              },
+              {
+                "text": "创建产品",
+                "url": "#/product/lazada/add",
+                "target": "_blank"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "children": [
+              {
+                "text": "常用模板",
+                "url": "#/product/lazada/template/productModel/list"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GlobSetting",
+        "icon": "icon-settings",
+        "text": "设置",
+        "hidden": true,
+
+        "url": "/pendingw123123",
+        "sideMenu": [
+          {
+            "text": "全局设置",
+            "children": [
+              {
+                "text": "高级设置",
+                "name": "setting",
+                "url": "#/system/setting"
+              },
+              {
+                "text": "汇率设置",
+                "name": "RateSetting",
+                "url": "#/system/ratesetting"
+              }
+            ]
+          },
+          {
+            "text": "系统管理",
+            "children": [
+              {
+                "text": "权限设置",
+                "name": "PermissionSetting",
+                "url": "#/account/subaccount"
+              },
+              {
+                "text": "地址管理",
+                "name": "AddressSetting",
+                "url": "#/system/addrbook"
+              },
+              {
+                "text": "操作日志",
+                "name": "OPtionsLog",
+                "url": "#/system/log"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

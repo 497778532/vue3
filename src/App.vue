@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "app33",
+  name: "appdev",
   components: {},
   setup() {
     
